@@ -58,9 +58,9 @@ export const handler = async (event) => {
           new PutCommand({
             TableName: tableName,
             Item: {
-              id: obj.id,
-              name: obj.name,
-              age: obj.age,
+              id: "1",
+              name: "tasneem",
+              age: "24",
             },
           })
         );
